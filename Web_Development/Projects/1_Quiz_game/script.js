@@ -47,8 +47,8 @@ const quizQuestions = [
       answers: [
         { text: "Luv Kush", correct: false },
         { text: "Krish Jain", correct: false },
-        { text: "Krrish Kumar", correct: true },
-        { text: "Sbko", correct: false },
+        { text: "Krrish Kumar", correct: false },
+        { text: "Sbko", correct: true },
       ],
     },
     {
@@ -165,5 +165,6 @@ function restartQuiz(){
     resultScreen.classList.remove("active");
     startScreen.classList.add("active");
 }
+
 
 
