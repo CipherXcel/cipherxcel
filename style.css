@@ -160,6 +160,13 @@ button:hover {
   background-color: #d45b28;
 }
 
+ .footer {
+    padding: 1rem;
+    display: block;
+  justify-content: center;
+  align-items: center;
+ }
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 500px) {
   /* when we hit 500px and below, implement the styles below */
@@ -184,11 +191,8 @@ button:hover {
     padding: 12px 25px;
     font-size: 1rem;
   }
-  .footer {
-    padding: 1rem;
-    display: block;
-  justify-content: center;
-  align-items: center;
+ 
 }
+
 
 
