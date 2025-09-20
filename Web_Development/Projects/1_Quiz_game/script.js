@@ -34,21 +34,21 @@ const quizQuestions = [
       ],
     },
     {
-      question: "Who is boyfriend of Geetika rn?",
+      question: "Who is boyfriend of Parveen Raika aka Uncle rn?",
       answers: [
         { text: "Krrish Kumar", correct: false },
         { text: "Krish Jain", correct: false },
         { text: "Luv Kush", correct: false },
-        { text: "Nischay Raj", correct: true },
+        { text: "Rohan Kumar", correct: true },
       ],
     },
     {
-      question: "Geetika kisko degi?",
+      question: "Parveen Raika kisko dega ga*d?",
       answers: [
         { text: "Luv Kush", correct: false },
         { text: "Krish Jain", correct: false },
         { text: "Krrish Kumar", correct: true },
-        { text: "Nischay Raj", correct: false },
+        { text: "Sbko", correct: false },
       ],
     },
     {
@@ -165,4 +165,5 @@ function restartQuiz(){
     resultScreen.classList.remove("active");
     startScreen.classList.add("active");
 }
+
 
